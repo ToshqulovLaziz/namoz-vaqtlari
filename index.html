@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namoz vaqtlari</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="site-header p-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <a class="site-logo" href="./index.html">Namoz vaqtlari</a>
+                <div class="language d-block">
+                    <a class="site-link" href="#">EN</a>
+                    <a class="site-link mx-2" href="#">O'Z</a>
+                    <a class="site-link" href="#">RU</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="site-main">
+        <div class="container">
+            <p class="site-text mb-5">Hozirgi vaqt</p>
+            <iframe class="site-time" src="https://free.timeanddate.com/clock/i8qtos9j/n244/fn7/fs30/fcfff/tct/pct/ftbi/tt0/th2" frameborder="0" width="743" height="44" allowtransparency="true"></iframe>
+            <form class="js-form d-flex">
+                <input class="js-input form-control me-2" type="search" placeholder="Viloyatni kiriting">
+                <button class="btn btn-primary d-block" type="submit">Search</button>
+            </form>
+            <ul class="js-vaqt-list vaqt-list">
+                
+            </ul> 
+        </div>
+    </main>
+
+    <template class="js-vaqt-temp">
+        <li class="vaqt-item">
+            <div class="vaqt-box d-flex flex-column justify-content-between p-3">
+                <h3 class="js-vaqt-region">Qarshi</h3>
+                <span class="js-vaqt-date">878655293</span>
+                <span class="js-vaqt-weekday">Dushanba</span>
+                <span class="js-vaqt-bomdod">5:53</span>
+                <span class="js-vaqt-quyosh">5:53</span>
+                <span class="js-vaqt-peshin">5:53</span>
+                <span class="js-vaqt-asr">5:53</span>
+                <span class="js-vaqt-shom">5:53</span>
+                <span class="js-vaqt-hufton">5:53</span>
+            </div>
+        </li>
+    </template>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
